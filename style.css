@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Barlow";
+  src: url("./fonts/Barlow-Regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  background-color: #eff6ff;
+  font-family: "Barlow", sans-serif;
+}
+.left {
+  position: relative;
+}
+.left .logo {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 140px;
+  height: auto;
+}
+.page {
+  margin: 100px 80px;
+  display: flex;
+  height: 1000px;
+}
+* {
+  box-sizing: border-box;
+}
+.right {
+  flex: 1;
+  padding: 100px 80px 100px 80px;
+  background-color: #fff;
+  color: #2a4a5c;
+}
+h1 {
+  color: #7b8a92;
+  font-size: 30px;
+  font-weight: 400;
+}
+h2 {
+  margin: 50px 0 10px;
+  color: #7b8a92;
+  font-size: 20px;
+  font-weight: 400;
+}
+p {
+  color: #96a5b1;
+}
+.social {
+  display: flex;
+  gap: 35px;
+  margin-top: 50px;
+}
+.facebook {
+  background-color: #255a9b;
+}
+.linkedin {
+  background-color: #0076b6;
+}
+.linkedin,
+.facebook {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  height: 45px;
+  flex: 1;
+}
+.linkedin img,
+.facebook img {
+  width: 50px;
+  height: 30px;
+}
+.OR {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 250px;
+  margin: 40px auto;
+  font-size: 11px;
+  color: #2a4a5c;
+}
+.OR::before,
+.OR::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eeeeee;
+}
+.contacts {
+  display: flex;
+  gap: 35px;
+  margin-top: 50px;
+}
+.contact {
+  flex: 1;
+  height: 57px;
+  padding: 8px 10px;
+  border: 1px solid #eeeeee;
+}
+.contact label {
+  display: block;
+  font-size: 14px;
+  color: #afafaf;
+}
+.contact input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+}
+.contact:focus-within {
+  border-left: 2px solid #3698fb;
+}
+
+.types {
+  margin-top: 50px;
+  display: flex;
+  gap: 140px;
+}
+.tooltip {
+  margin-top: 20px;
+  width: 260px;
+  padding: 12px;
+  font-size: 12px;
+  color: #96a5b1;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+.type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.info {
+  font-size: 12px;
+  color: #afafaf;
+}
+.agreement {
+  margin-top: 50px;
+  color: #afafaf;
+}
+button {
+  margin-top: 50px;
+  background-color: #3698fb;
+  border-radius: 5px;
+  width: 250px;
+  height: 45px;
+  color: white;
+  border: 0;
+}
+button,
+input {
+  font-family: inherit;
+}
