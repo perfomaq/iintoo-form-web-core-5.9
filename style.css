@@ -21,6 +21,7 @@ body {
 }
 .page {
   margin: 100px 80px;
+  max-width: 1440px;
   display: flex;
   height: 1000px;
 }
