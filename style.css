@@ -11,6 +11,7 @@ body {
 }
 .left {
   position: relative;
+  flex: 0 0 760px;
 }
 .left .logo {
   position: absolute;
